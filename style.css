@@ -71,6 +71,7 @@ img {
     color: #555;
 }
 
+/* Section A */
 .section a {
     margin: 2rem 0;
 }
@@ -93,6 +94,13 @@ img {
     margin: 1rem 0;
 }
 
+/* Section B */
+.section-b {
+    position: relative;
+    background: url('images/Logo.jpeg') no-repeat bottom center/cover;
+    height: 600px;
+}
+
 /* Utilities */
 .btn {
     display: inline-block;
@@ -107,4 +115,13 @@ img {
 
 .btn: hover {
     background: var(--secondary--color);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--overlay-color);
 }
